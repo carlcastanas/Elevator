@@ -2,6 +2,20 @@
 //Pointer, and functions in my elevator code. To prompt the starting and destination floors, I use the commands goUp and goDown.
 #include <iostream> // cout
 using namespace std; // cout
+template<typename T> // template
+class elevator // elevator
+{
+private: // private
+    T m_t; // m_t
+public: // public
+    elevator(T t) : m_t(t) {} // elevator
+};
+    int i = 0; // i
+   elevator<int> intelelevator = i; // int elevator
+
+    double d = 0.0; // d
+    elevator<double> doubleelevator = d; // double elevator
+
 int main() // main
 {
     int goUp, // go up elevator
