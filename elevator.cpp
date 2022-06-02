@@ -1,3 +1,5 @@
+//To acquire the floor destination and determine whether the destination is the same, I utilize control structures, OOP, 
+//Pointer, and functions in my elevator code. To prompt the starting and destination floors, I use the commands goUp and goDown.
 #include <iostream> // cout
 using namespace std; // cout
 int main() // main
