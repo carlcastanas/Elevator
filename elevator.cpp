@@ -11,7 +11,7 @@ public: // public
     elevator(T t) : m_t(t) {} // elevator
 };
     int i = 0; // i
-   elevator<int> intelelevator = i; // int elevator
+   elevator<int> intelevator = i; // int elevator
 
     double d = 0.0; // d
     elevator<double> doubleelevator = d; // double elevator
