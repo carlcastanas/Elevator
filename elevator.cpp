@@ -1,1 +1,30 @@
-
+#include <iostream> // cout
+using namespace std; // cout
+int main() // main
+{
+    int goUp, // go up elevator
+        goDown; // go down elevator
+    
+    cout<<"Enter the starting floor: "; // prompt for starting floor
+    cin>>goUp; // get starting floor
+    cout<<"Enter the destination floor: "; // prompt for destination floor
+    cin>>goDown; // get destination floor
+    if // if
+    (goDown<1 || goDown>5){ // if destination floor is not between 1 and 5
+        cout<<"Destination must be one from 1,2,3,4,5"; // print error
+    }
+    else if // else if
+    (goUp == goDown) // if starting floor is equal to destination floor
+    {
+        cout<<"start and destination floor is the same"; // print error
+    }
+    else // else
+    {
+    for // for
+    (int i = goUp + 1; i<goDown; i++) // for each floor between starting and destination floor
+    { cout<<i<<endl; // print floor
+    }
+        cout<<"now in level "<<goDown; // print destination floor
+    }
+    return 0; // return 0
+}
